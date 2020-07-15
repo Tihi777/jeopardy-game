@@ -1,0 +1,51 @@
+{
+  "extends": [
+    "airbnb",
+    "react-app",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": ["react", "import", "prettier", "jsx-a11y"],
+  "rules": {
+    "react/no-unused-state": "warn",
+    "react/no-unused-prop-types": "warn",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": ["warn", { "ignorePureComponents": true }],
+    "react/forbid-prop-types": ["error", { "forbid": ["any"] }],
+    "react/prop-types": ["warn"],
+
+    "global-require": "warn",
+    "no-return-assign": ["warn", "except-parens"],
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "no-alert": "warn",
+    "no-bitwise": ["warn", { "allow": ["~"] }],
+    "no-empty": "warn",
+    "no-unreachable": "warn",
+    "spaced-comment": "off",
+    "jsx-quotes": ["warn", "prefer-double"],
+    "no-unused-vars": "warn",
+    "require-await": "warn",
+
+    "import/no-dynamic-require": "warn",
+    "import/newline-after-import": "warn",
+    "import/no-extraneous-dependencies": ["warn", { "devDependencies": true }],
+
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+
+    "prettier/prettier": ["warn"]
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true
+  },
+  "parser": "babel-eslint"
+}
