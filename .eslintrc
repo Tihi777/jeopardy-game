@@ -1,14 +1,14 @@
 {
   "extends": [
-    "airbnb",
     "react-app",
+    "airbnb",
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:react-hooks/recommended",
     "prettier",
     "prettier/react"
   ],
-  "plugins": ["react", "import", "prettier", "jsx-a11y"],
+  "plugins": ["react", "import", "prettier"],
   "rules": {
     "react/no-unused-state": "warn",
     "react/no-unused-prop-types": "warn",
@@ -31,7 +31,7 @@
 
     "import/no-dynamic-require": "warn",
     "import/newline-after-import": "warn",
-    "import/no-extraneous-dependencies": ["warn", { "devDependencies": true }],
+    "import/no-extraneous-dependencies": "warn",
 
     "jsx-a11y/no-static-element-interactions": "off",
     "jsx-a11y/click-events-have-key-events": "off",
@@ -41,11 +41,7 @@
   "globals": {
     "window": true,
     "document": true,
-    "localStorage": true,
-    "FormData": true,
-    "FileReader": true,
-    "Blob": true,
-    "navigator": true
+    "localStorage": true
   },
   "parser": "babel-eslint"
 }
