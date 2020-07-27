@@ -15,6 +15,13 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
 
+      // custom colors
+      heading: '#444444',
+      input: '#5B5B5B',
+      in: '#7C7C7C',
+      'main-gray': '#f5f5f5',
+      'main-indigo': '#7263FF',
+
       black: '#000',
       white: '#fff',
 
@@ -149,6 +156,14 @@ module.exports = {
       '48': '12rem',
       '56': '14rem',
       '64': '16rem',
+      '72': '18rem',
+      '80': '20rem',
+      '88': '22rem',
+      '96': '24rem',
+      '104': '26rem',
+      '112': '28rem',
+      '120': '30rem',
+      '128': '32rem',
     },
     backgroundColor: theme => theme('colors'),
     backgroundOpacity: theme => theme('opacity'),
@@ -199,6 +214,7 @@ module.exports = {
       inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
       outline: '0 0 0 3px rgba(66, 153, 225, 0.5)',
       none: 'none',
+      button: '0px 4px 15px rgba(114, 99, 255, 0.4)',
     },
     container: {},
     cursor: {
@@ -297,6 +313,7 @@ module.exports = {
       normal: '1.5',
       relaxed: '1.625',
       loose: '2',
+      '2': '.688rem',
       '3': '.75rem',
       '4': '1rem',
       '5': '1.25rem',

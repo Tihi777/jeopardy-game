@@ -1,0 +1,15 @@
+.online {
+  position: relative;
+  color: #aeaeae;
+  &::after {
+    content: '';
+    position: absolute;
+    right: 2.5rem;
+    top: 0.25rem;
+    z-index: 10;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #00c85c;
+  }
+}
