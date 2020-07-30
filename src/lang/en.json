@@ -1,0 +1,10 @@
+{
+  "main.title": "Play.{break}Learn.{break}Win.",
+  "main.desc": "An exciting intellectual game, where you can test your own knowledge in various fields. You can also play over a local network or over the Internet with each other!",
+  "main.name": "svoya igra",
+  "main.people.online": "people{break}are playing rn!",
+  "main.play.now": "play now",
+  "main.play.button": "START PvP GAME",
+  "main.statistics": "statistics",
+  "main.statistics.na": "Stats are unavailable at the moment, sorry for that"
+}
